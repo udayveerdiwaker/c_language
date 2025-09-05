@@ -1,6 +1,7 @@
 #include <stdio.h>
-
-int main(){
+// #include <stdlib.h>
+int main()
+{
     // int age = 20;
     // char name[] = "shiva";
     // float height = 5.9;
@@ -32,41 +33,35 @@ int main(){
     // a = b = c = 75;
     // printf("%d\n", a + b + c);
 
+    // student data
+    char student_name[50] = "maani";
+    int student_id = 101;
+    int student_age = 20;
+    float studentfee = 75000.0;
+    char student_grade = 'A';
 
-    // // student data
-    // char student_name[50] = "maani";
-    // int student_id = 101;
-    // int student_age = 20;
-    // float studentfee = 75000.0;
-    // char student_grade = 'A';
+    printf("Student Name: %s\n", student_name);
+    printf("Student ID: %d\n", student_id);
+    printf("Student Age: %d\n", student_age);
+    printf("Student Fee: %.1f\n", studentfee);
+    printf("Student Grade: %c\n", student_grade);
 
-    // printf("Student Name: %s\n", student_name);
-    // printf("Student ID: %d\n", student_id);
-    // printf("Student Age: %d\n", student_age);
-    // printf("Student Fee: %.1f\n", studentfee);
-    // printf("Student Grade: %c\n", student_grade);
+    char name[50];   // Variable to store name (up to 49 characters + null)
 
- 
+    printf("Enter your name: ");
+    scanf("%s", name);   // Take input (single word name)
 
-    // char name[50];   // Variable to store name (up to 49 characters + null)
+    printf("Welcome, %s! Glad to see you learning C.\n", name);
 
-    // printf("Enter your name: shiva");
-    // scanf("%s", name);   // Take input (single word name)
-
-    // printf("Welcome, %s! Glad to see you learning C.\n", name);
-
-// Basic syntax rules
+    // Basic syntax rules
     // printf("Welcome to C Language!\n");
     // printf("This is the second line.\n");
     // printf("And here is the third line.\n");
 
     //  printf("Welcome to C Language!\nThis is the second line.\nHere is the third line.\n");
 
-
-
-
     // Variables & Data Types
-// Variables, int, float, char, double
+    // Variables, int, float, char, double
 
     //    int age = 20;              // integer variable
     // float price = 99.50;       // floating-point variable
@@ -78,9 +73,8 @@ int main(){
     // printf("Value of Pi: %.1lf\n", pi);   // %lf for double
     // printf("Grade: %c\n", grade);          // %c for char
 
-
     // Variables & Data Types
-// Format specifiers (%d, %f, %c, %s)
+    // Format specifiers (%d, %f, %c, %s)
 
     // int num1, num2, sum;
 
@@ -97,68 +91,58 @@ int main(){
     // // Output
     // printf("Sum = %d\n", sum);
 
+    //  float length, breadth, area;
 
+    //     // Input
+    //     printf("Enter length of rectangle: ");
+    //     scanf("%f", &length);
 
-//  float length, breadth, area;
+    //     printf("Enter breadth of rectangle: ");
+    //     scanf("%f", &breadth);
 
-//     // Input
-//     printf("Enter length of rectangle: ");
-//     scanf("%f", &length);
+    //     // Calculation
+    //     area = length * breadth;
 
-//     printf("Enter breadth of rectangle: ");
-//     scanf("%f", &breadth);
+    //     // Output
+    //     printf("Area of rectangle = %.2f\n", area);
 
-//     // Calculation
-//     area = length * breadth;
+    // Constants, scanf input
 
-//     // Output
-//     printf("Area of rectangle = %.2f\n", area);
+    //   int age;
+    //     float height;
+    //     char grade;
 
+    //     printf("Enter your age: ");
+    //     scanf("%d", &age);
 
+    //     printf("Enter your height (in meters): ");
+    //     scanf("%f", &height);
 
-// Constants, scanf input
+    //     printf("Enter your grade (A/B/C): ");
+    //     scanf(" %c", &grade);   // space before %c is important!
 
-//   int age;
-//     float height;
-//     char grade;
+    //     printf("\n--- Student Info ---\n");
+    //     printf("Age: %d\n", age);
+    //     printf("Height: %.2f meters\n", height);
+    //     printf("Grade: %c\n", grade);
 
-//     printf("Enter your age: ");
-//     scanf("%d", &age);
+    // // Format specifiers (%d, %f, %c, %s)
 
-//     printf("Enter your height (in meters): ");
-//     scanf("%f", &height);
+    //     int age = 20;
+    //     float height = 5.8;
+    //     char grade = 'A';
+    //     char name[20] = "Uday";  // string (array of characters)
+    //     double pi = 3.1415926535;
 
-//     printf("Enter your grade (A/B/C): ");
-//     scanf(" %c", &grade);   // space before %c is important!
+    //     printf("Name: %s\n", name);       // %s for string
+    //     printf("Age: %d\n", age);         // %d for int
+    //     printf("Height: %.2f\n", height); // %.2f for float (2 decimals)
+    //     printf("Grade: %c\n", grade);     // %c for char
+    //     printf("Value of Pi: %lf\n", pi); // %lf for double
 
-//     printf("\n--- Student Info ---\n");
-//     printf("Age: %d\n", age);
-//     printf("Height: %.2f meters\n", height);
-//     printf("Grade: %c\n", grade);
-
-
-
-
-// // Format specifiers (%d, %f, %c, %s)
-
-//     int age = 20;
-//     float height = 5.8;
-//     char grade = 'A';
-//     char name[20] = "Uday";  // string (array of characters)
-//     double pi = 3.1415926535;
-
-//     printf("Name: %s\n", name);       // %s for string
-//     printf("Age: %d\n", age);         // %d for int
-//     printf("Height: %.2f\n", height); // %.2f for float (2 decimals)
-//     printf("Grade: %c\n", grade);     // %c for char
-//     printf("Value of Pi: %lf\n", pi); // %lf for double
-
-
-
-
-// Operators
-// Arithmetic operators
-// Used for mathematical calculations.
+    // Operators
+    // Arithmetic operators
+    // Used for mathematical calculations.
     //  int a = 15, b = 4;
 
     // printf("a + b = %d\n", a + b);  // Addition
@@ -167,19 +151,16 @@ int main(){
     // printf("a / b = %d\n", a / b);  // Division (integer)
     // printf("a %% b = %d\n", a % b); // Modulus (remainder)
 
+    // Relational Operators
+    // Used for comparison. Result is 1 (true) or 0 (false).
+    //   int x = 10, y = 20;
 
-
-// Relational Operators
-// Used for comparison. Result is 1 (true) or 0 (false).
-//   int x = 10, y = 20;
-
-//     printf("x > y : %d\n", x > y);
-//     printf("x < y : %d\n", x < y);
-//     printf("x == y : %d\n", x == y);
-//     printf("x != y : %d\n", x != y);
-//     printf("x >= y : %d\n", x >= y);
-//     printf("x <= y : %d\n", x <= y);
-
+    //     printf("x > y : %d\n", x > y);
+    //     printf("x < y : %d\n", x < y);
+    //     printf("x == y : %d\n", x == y);
+    //     printf("x != y : %d\n", x != y);
+    //     printf("x >= y : %d\n", x >= y);
+    //     printf("x <= y : %d\n", x <= y);
 
     // Logical Operators
     // Used with conditions.
@@ -189,27 +170,26 @@ int main(){
     // printf("p || q = %d\n", p || q); // OR
     // printf("!p = %d\n", !p);         // NOT
 
-// Assignment Operators
-// Used to assign values.
-//   int num = 10;
+    // Assignment Operators
+    // Used to assign values.
+    //   int num = 10;
 
-//     num += 5;   // num = num + 5
-//     printf("After += : %d\n", num);
+    //     num += 5;   // num = num + 5
+    //     printf("After += : %d\n", num);
 
-//     num += 3;   // num = num - 3
-//     printf("After -= : %d\n", num);
+    //     num += 3;   // num = num - 3
+    //     printf("After -= : %d\n", num);
 
-//     num *= 2;   // num = num * 2
-//     printf("After *= : %d\n", num);
+    //     num *= 2;   // num = num * 2
+    //     printf("After *= : %d\n", num);
 
-//     num /= 4;   // num = num / 4
-//     printf("After /= : %d\n", num);
+    //     num /= 4;   // num = num / 4
+    //     printf("After /= : %d\n", num);
 
+    // Increment & Decrement
+    // Used to increase/decrease value by 1.
 
-// Increment & Decrement
-// Used to increase/decrease value by 1.
-
- int x = 5;
+    int x = 5;
 
     printf("x++ = %d\n", x++); // Post-increment
     printf("After x++ : %d\n", x);
@@ -221,9 +201,8 @@ int main(){
 
     printf("--x = %d\n", --x); // Pre-decrement
 
-
     // Bitwise Operators
-// Used for operations on binary numbers.
+    // Used for operations on binary numbers.
 
     // int a = 6, b = 3; // (6 = 110, 3 = 011 in binary)
 
@@ -233,7 +212,6 @@ int main(){
     // printf("~a = %d\n", ~a);       // NOT
     // printf("a << 1 = %d\n", a << 1); // Left shift
     // printf("a >> 1 = %d\n", a >> 1); // Right shift
-
+    system("pause");
     return 0;
-
 }
