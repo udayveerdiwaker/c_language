@@ -212,6 +212,6 @@ int main()
     // printf("~a = %d\n", ~a);       // NOT
     // printf("a << 1 = %d\n", a << 1); // Left shift
     // printf("a >> 1 = %d\n", a >> 1); // Right shift
-    system("pause");
+    // system("pause");
     return 0;
 }
