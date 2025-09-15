@@ -46,13 +46,40 @@ int main() {
     // }
 
     // Even or Odd
-    int num;
-    printf("Enter an integer: ");
-    scanf("%d", &num);
-    if(num % 2 == 0) {
-        printf("%d is even\n", num);
-    } else {
-        printf("%d is odd\n", num);
-    }
+    // int num;
+    // printf("Enter an integer: ");
+    // scanf("%d", &num);
+    // if(num % 2 == 0) {
+    //     printf("%d is even\n", num);
+    // } else {
+    //     printf("%d is odd\n", num);
+    // }
+
+
+
+    // Largest of Two Numbers
+    // int a, b;
+    // printf("Enter two numbers: ");
+    // scanf("%d %d", &a, &b);
+    // if(a > b) {
+    //     printf("%d is larger\n", a);
+    // } else {
+    //     printf("%d is larger\n", b);
+    // }    
+
+
+    // Largest of Three Numbers
+    int a, b, c;
+
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    if (a >= b && a >= c)
+        printf("%d is largest\n", a);
+    else if (b >= a && b >= c)
+        printf("%d is largest\n", b);
+    else
+        printf("%d is largest\n", c);
+
     return 0;
 }
