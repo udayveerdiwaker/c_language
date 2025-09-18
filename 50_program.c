@@ -69,17 +69,115 @@ int main() {
 
 
     // Largest of Three Numbers
-    int a, b, c;
+    // int a, b, c;
 
-    printf("Enter three numbers: ");
-    scanf("%d %d %d", &a, &b, &c);
+    // printf("Enter three numbers: ");
+    // scanf("%d %d %d", &a, &b, &c);
 
-    if (a >= b && a >= c)
-        printf("%d is largest\n", a);
-    else if (b >= a && b >= c)
-        printf("%d is largest\n", b);
-    else
-        printf("%d is largest\n", c);
+    // if (a >= b && a >= c)
+    //     printf("%d is largest\n", a);
+    // else if (b >= a && b >= c)
+    //     printf("%d is largest\n", b);
+    // else
+    //     printf("%d is largest\n", c);
 
-    return 0;
+
+    //     // Check Positive, Negative or Zero
+    // int num;
+
+    // printf("Enter an integer: ");
+    // scanf("%d", &num);
+    
+    // if(num > 0){
+    //     printf("%d is positive\n", num);
+    // }else if(num < 0){
+    //         printf("%d is negative\n", num);
+    //         }
+    //     else{
+    //     printf("You entered zero\n");
+    // }
+  
+    // Leap Year Checker
+    // int year;
+
+    // printf("Enter a year: ");
+    // scanf("%d", &year);
+    // if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
+    //     printf("%d is a leap year\n", year);
+    // } else {
+    //     printf("%d is Not a leap year\n", year);
+    // }
+
+    // Sum of Natural Numbers (1 to n)
+    // int n, sum = 0;
+    // printf("Enter a number: ");
+    // scanf("%d", &n);
+    // for (int i = 18; i <= n; i++){
+    //     sum = sum + i;
+    //     printf("%d\n", sum);
+    // }
+    // printf("Sum of natural numbers from 1 to %d is %d\n", n, sum);
+
+
+
+// Sum=n×(n+1)/2​
+
+
+// Example:
+// If n = 5 → sum = 5 × 6 / 2 = 15.
+
+
+// Print Numbers from 0 to n
+// int n;
+
+// printf("Enter a number: ");
+// scanf("%d", &n);
+// for (int i = 0; i <= n; i++){
+//     printf("%d\n", i);
+// }
+
+// Print Even Numbers from 0 to n
+// int n;
+// printf("Enter a number: ");
+// scanf("%d", &n);
+// for (int i = 0; i <= n; i += 2){
+//     printf("%d\n", i);
+// }
+
+// Countdown from n to 1
+// int n;
+// printf("Enter a number: ");
+// scanf("%d", &n);
+
+// for(int i = n; i >= 1; i--){
+//     printf("%d\n", i);
+// }.
+
+
+// nested loops
+// int rows, cols;
+// printf("Enter number of rows and columns: ");
+// scanf("%d %d", &rows, &cols);
+
+// for(int i = 1; i <= rows; i++){
+//     for(int j = 1; j <= cols; j++){
+//         printf("* ");
+//     }
+//     printf("\n");
+// }
+
+// Outer loop
+int I, J;
+printf("Nested Loop Example:\n");
+scanf("%d %d", &I, &J);
+
+for (int i = 1; i <= I; ++i) {
+  printf("Outer: %d\n", i);  // Executes 2 times
+
+  // Inner loop
+  for (int j = 1; j <= J; ++j) {
+    printf(" Inner: %d\n", j);  // Executes 6 times (2 * 3)
+  }
+}
+   return 0;
 }
