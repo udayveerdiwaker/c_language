@@ -33,7 +33,7 @@ int main() {
 
     do {
         printf("\n===== Restaurant Menu =====\n");
-        printf("1. Pizza - 150\n");
+        printf("1. Pizza - 120\n");
         printf("2. Burger - 80\n");
         printf("3. Sandwich - 60\n");
         printf("4. Cold Drink - 40\n");
