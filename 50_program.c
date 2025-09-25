@@ -69,17 +69,63 @@ int main() {
 
 
     // Largest of Three Numbers
-    int a, b, c;
+    // int a, b, c;
 
-    printf("Enter three numbers: ");
-    scanf("%d %d %d", &a, &b, &c);
+    // printf("Enter three numbers: ");
+    // scanf("%d %d %d", &a, &b, &c);
 
-    if (a >= b && a >= c)
-        printf("%d is largest\n", a);
-    else if (b >= a && b >= c)
-        printf("%d is largest\n", b);
-    else
-        printf("%d is largest\n", c);
+    // if (a >= b && a >= c)
+    //     printf("%d is largest\n", a);
+    // else if (b >= a && b >= c)
+    //     printf("%d is largest\n", b);
+    // else
+    //     printf("%d is largest\n", c);
+
+    // ASCII Value of a Character
+    // char ch;
+
+    // printf("Enter a character: ");
+    // scanf(" %c", &ch);
+
+    // printf("ASCII value of %c = %d\n", ch, ch);
+
+//     // employe gross salary
+//     float basic, ta, da, hra, gross;    
+//     printf("Enter basic salary: ");
+//     scanf("%f", &basic);
+
+//     if(basic < 10000) {
+//     ta = 20 * basic/100;
+//     da = 30 * basic/100;
+//     hra = 35 * basic/100;
+//     gross = basic + ta + da + hra;   
+//     printf("Gross Salary = %.2f\n", gross);
+
+//     } else if(basic < 20000) {
+//     ta = 25 * basic/100;
+//     da = 35 * basic/100;
+//     hra = 40 * basic/100;
+//     gross = basic + ta + da + hra;
+//     printf("Gross Salary = %.2f\n", gross); 
+    
+//     } else if(basic < 30000) {
+//     ta = 30 * basic/100;    
+//     da = 40 * basic/100;
+//     hra = 45 * basic/100;
+//     gross = basic + ta + da + hra;
+//     printf("Gross Salary = %.2f\n", gross); 
+//     }
+//  else {
+//     printf("Invalid input\n");  
+//     }
+
+int a;
+printf("Enter a number: ");
+scanf("%d", &a);
+for(int i = 1; i <= a; i++) {
+    a = a * i;
+    printf("%d \n", a);
+}
 
     return 0;
 }
