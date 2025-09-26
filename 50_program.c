@@ -167,17 +167,32 @@ int main() {
 // }
 
 // Outer loop
-int I, J;
-printf("Nested Loop Example:\n");
-scanf("%d %d", &I, &J);
+// int I, J;
+// printf("Nested Loop Example:\n");
+// scanf("%d %d", &I, &J);
 
-for (int i = 1; i <= I; ++i) {
-  printf("Outer: %d\n", i);  // Executes 2 times
+// for (int i = 50; i >= I; --i) {
+//   printf("Outer: %d\n", i);  // Executes 2 times
 
-  // Inner loop
-  for (int j = 1; j <= J; ++j) {
-    printf(" Inner: %d\n", j);  // Executes 6 times (2 * 3)
+//   // Inner loop
+//   for (int j = 50; j >= J; --j) {
+//     printf(" Inner: %d\n", j);  // Executes 6 times (2 * 3)
+//   }
+// }
+
+// star pettern
+int i,j,n;
+printf("Enter number of rows: ");
+scanf("%d", &n);
+
+for(i=1; i<=n; i++){
+
+  for(j=1;j<=i;j++){
+
+    printf("* ");
+
   }
+  printf("\n");
 }
    return 0;
 }
