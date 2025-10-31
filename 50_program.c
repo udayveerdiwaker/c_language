@@ -16,18 +16,31 @@ int main() {
 
 // ASCII Value of a Character
     // char ch;
+    // int integer;
 
     // printf("Enter a character: ");
     // scanf("%c", &ch);
 
     // printf("ASCII value of %c = %d\n", ch, ch);
 
-    // Size of Data Types
+    // // Size of Data Types
     // printf("Size of int: %zu bytes\n", sizeof(int));
     // printf("Size of float: %zu bytes\n", sizeof(float));
     // printf("Size of char: %zu bytes\n", sizeof(char));
     // printf("Size of double: %zu bytes\n", sizeof(double));
 
+
+    
+    // ASCII Values of All Characters
+    // for(char ch = 'A'; ch <= 'Z'; ch++) {
+    //   printf("%c = %d\n", ch, ch);
+    // }
+    // for(char ch = 'a'; ch <= 'z'; ch++) {
+    //     printf("%c = %d\n", ch, ch);
+    // }
+
+  
+    
     // simple calculator
     // int a, b, choice;
 
@@ -102,18 +115,17 @@ int main() {
 
     // printf("Enter a year: ");
     // scanf("%d", &year);
-    // if ((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0)) {
-    //     printf("%d is a leap year\n", year);
+    //  if (year % 400 == 0) {
+    //     printf("%d is a leap year (divisible by 400)\n", year);
     // } else {
-    //     printf("%d is Not a leap year\n", year);
+    //     printf("%d is not divisible by 400\n", year);
     // }
-
     // Sum of Natural Numbers (1 to n)
     // int n, sum = 0;
     // printf("Enter a number: ");
     // scanf("%d", &n);
-    // for (int i = 18; i <= n; i++){
-    //     sum = sum + i;
+    // for (int i = 1; i <= n; i++){
+    //     sum = sum += i;
     //     printf("%d\n", sum);
     // }
     // printf("Sum of natural numbers from 1 to %d is %d\n", n, sum);
@@ -151,7 +163,7 @@ int main() {
 
 // for(int i = n; i >= 1; i--){
 //     printf("%d\n", i);
-// }.
+// }
 
 
 // nested loops
@@ -180,19 +192,33 @@ int main() {
 //   }
 // }
 
-// star pettern
-int i,j,n;
-printf("Enter number of rows: ");
-scanf("%d", &n);
+// // star pettern
+// int i,j,n;
+// printf("Enter number of rows: ");
+// scanf("%d", &n);
 
-for(i=1; i<=n; i++){
+// for(i=1; i<=n; i++){
 
-  for(j=1;j<=i;j++){
+//   for(j=1;j<=i;j++){
 
-    printf("* ");
+//     printf("* ");
 
-  }
-  printf("\n");
-}
+//   }
+//   printf("\n");
+// }
+
+
+// 15. Factorial of a Number
+ int n, fact = 1;
+
+    printf("Enter a number: ");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+        fact *= i;  // multiply
+    }
+
+    printf("Factorial = %d\n", fact);
+
    return 0;
 }
