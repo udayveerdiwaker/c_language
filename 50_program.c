@@ -111,15 +111,17 @@ int main() {
     // }
   
     // Leap Year Checker
-    // int year;
+    int year;
 
-    // printf("Enter a year: ");
-    // scanf("%d", &year);
-    //  if (year % 400 == 0) {
-    //     printf("%d is a leap year (divisible by 400)\n", year);
-    // } else {
-    //     printf("%d is not divisible by 400\n", year);
-    // }
+    printf("Enter a year: ");
+    scanf("%d", &year);
+     if (year % 400 == 0 &  year % 100 == 0) {
+        printf("%d is a leap year (divisible by 400)\n", year);
+    } else {
+        printf("%d is not divisible by 400\n", year);
+    }
+
+
     // Sum of Natural Numbers (1 to n)
     // int n, sum = 0;
     // printf("Enter a number: ");
@@ -209,16 +211,16 @@ int main() {
 
 
 // 15. Factorial of a Number
- int n, fact = 1;
+//  int n, fact = 1;
 
-    printf("Enter a number: ");
-    scanf("%d", &n);
+//     printf("Enter a number: ");
+//     scanf("%d", &n);
 
-    for (int i = 1; i <= n; i++) {
-        fact *= i;  // multiply
-    }
+//     for (int i = 1; i <= n; i++) {
+//         fact *= i;  // multiply
+//     }
 
-    printf("Factorial = %d\n", fact);
+//     printf("Factorial = %d\n", fact);
 
    return 0;
 }
