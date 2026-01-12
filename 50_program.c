@@ -109,19 +109,24 @@ int main() {
     //     else{
     //     printf("You entered zero\n");
     // }
-  
-    // Leap Year Checker
-    int year;
-
-    printf("Enter a year: ");
-    scanf("%d", &year);
-     if (year % 400 == 0 &  year % 100 == 0) {
-        printf("%d is a leap year (divisible by 400)\n", year);
-    } else {
-        printf("%d is not divisible by 400\n", year);
-    }
 
 
+    // int year;
+    // printf("Enter year: ");
+    // scanf("%d", &year);
+    // if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+    //     printf("%d is a leap year\n", year);
+    // else
+    //     printf("%d is not a leap year\n", year);
+ 
+    // Area of Triangle
+
+
+    //         float base, height, area;
+    // printf("Enter base and height: ");
+    // scanf("%f %f", &base, &height);
+    // area = 0.5 * base * height;
+    // printf("Area = %.2f", area);
     // Sum of Natural Numbers (1 to n)
     // int n, sum = 0;
     // printf("Enter a number: ");
