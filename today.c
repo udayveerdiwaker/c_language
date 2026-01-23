@@ -72,11 +72,22 @@ int main() {
     //     printf("Not Palindrome");
 
 
-        int i,j;
-    for(i=1;i<=4;i++){
-        for(j=1;j<=i;j++)
-            printf("*");
-        printf("\n");
+    //     int i,j;
+    // for(i=1;i<=4;i++){
+    //     for(j=1;j<=i;j++)
+    //         printf("*");
+    //     printf("\n");
+    // }
+    int a[5],i,max;
+    for(i=0;i<5;i++)
+        scanf("%d",&a[i]);
+    max=a[0];
+    for(i=1;i<5;i++){
+        if(a[i]>max)
+            max=a[i];
     }
+    printf("Max=%d\n",max);
+
+
     return 0;
 }

@@ -15,29 +15,29 @@ int main() {
     // printf("After swap: a = %d, b = %d\n", a, b);
 
 // ASCII Value of a Character
-    // char ch;
-    // int integer;
+    char ch;
+    int integer;
 
-    // printf("Enter a character: ");
-    // scanf("%c", &ch);
+    printf("Enter a character: ");
+    scanf("%c", &ch);
 
-    // printf("ASCII value of %c = %d\n", ch, ch);
+    printf("ASCII value of %c = %d\n", ch, ch);
 
-    // // Size of Data Types
-    // printf("Size of int: %zu bytes\n", sizeof(int));
-    // printf("Size of float: %zu bytes\n", sizeof(float));
-    // printf("Size of char: %zu bytes\n", sizeof(char));
-    // printf("Size of double: %zu bytes\n", sizeof(double));
+    // Size of Data Types
+    printf("Size of int: %zu bytes\n", sizeof(int));
+    printf("Size of float: %zu bytes\n", sizeof(float));
+    printf("Size of char: %zu bytes\n", sizeof(char));
+    printf("Size of double: %zu bytes\n", sizeof(double));
 
 
     
     // ASCII Values of All Characters
-    // for(char ch = 'A'; ch <= 'Z'; ch++) {
-    //   printf("%c = %d\n", ch, ch);
-    // }
-    // for(char ch = 'a'; ch <= 'z'; ch++) {
-    //     printf("%c = %d\n", ch, ch);
-    // }
+    for(char ch = 'A'; ch <= 'Z'; ch++) {
+      printf("%c = %d\n", ch, ch);
+    }
+    for(char ch = 'a'; ch <= 'z'; ch++) {
+        printf("%c = %d\n", ch, ch);
+    }
 
   
     
