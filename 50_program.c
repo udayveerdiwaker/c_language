@@ -82,17 +82,17 @@ int main() {
 
 
     // Largest of Three Numbers
-    // int a, b, c;
+    int a, b, c;
 
-    // printf("Enter three numbers: ");
-    // scanf("%d %d %d", &a, &b, &c);
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
 
-    // if (a >= b && a >= c)
-    //     printf("%d is largest\n", a);
-    // else if (b >= a && b >= c)
-    //     printf("%d is largest\n", b);
-    // else
-    //     printf("%d is largest\n", c);
+    if (a >= b && a >= c)
+        printf("%d is largest\n", a);
+    else if (b >= a && b >= c)
+        printf("%d is largest\n", b);
+    else
+        printf("%d is largest\n", c);
 
 
     //     // Check Positive, Negative or Zero
@@ -111,13 +111,13 @@ int main() {
     // }
 
 
-    // int year;
-    // printf("Enter year: ");
-    // scanf("%d", &year);
-    // if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
-    //     printf("%d is a leap year\n", year);
-    // else
-    //     printf("%d is not a leap year\n", year);
+    int year;
+    printf("Enter year: ");
+    scanf("%d", &year);
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+        printf("%d is a leap year\n", year);
+    else
+        printf("%d is not a leap year\n", year);
  
     // Area of Triangle
 

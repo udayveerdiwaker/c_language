@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+// int main() {
     // int n, sum = 0;
 
     // printf("Enter a number: ");
@@ -78,16 +78,45 @@ int main() {
     //         printf("*");
     //     printf("\n");
     // }
-    int a[5],i,max;
-    for(i=0;i<5;i++)
-        scanf("%d",&a[i]);
-    max=a[0];
-    for(i=1;i<5;i++){
-        if(a[i]>max)
-            max=a[i];
-    }
-    printf("Max=%d\n",max);
+    // int a[5],i,max;
+    // for(i=0;i<5;i++)
+    //     scanf("%d",&a[i]);
+    // max=a[0];
+    // for(i=1;i<5;i++){
+    //     if(a[i]>max)
+    //         max=a[i];
+    // }
+    // printf("Max=%d\n",max);
 
 
+//     return 0;
+// }
+
+// int fact(int n) {
+//     if(n == 1)
+//         return 1;
+//     else
+//         return n * fact(n-1);
+// }
+
+// int main() {
+//     int n;
+//     scanf("%d", &n);
+//     printf("Factorial = %d", fact(n));
+//     return 0;
+// }
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int *p;
+    p = (int*)malloc(5 * sizeof(int));
+
+    if(p == NULL)
+        printf("Memory not allocated");
+    else
+        printf("Memory allocated");
+
+    free(p);
     return 0;
 }
