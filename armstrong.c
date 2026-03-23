@@ -32,7 +32,7 @@ int main() {
     double sum;
 
     // Check numbers from 1 to 1000000 (you can change the range)
-    for (num = 1; num <= 1000000; num++) {
+    for (num = 1; num <= 1000; num++) {
 
         copy = num;
         sum = 0.0;
@@ -57,6 +57,7 @@ int main() {
             printf("%d is an Armstrong number.\n", num);
         }
     }
+    system("pause");
 
     return 0;
 }

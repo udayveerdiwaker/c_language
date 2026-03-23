@@ -2,16 +2,16 @@
 // #include <stdlib.h>
 int main()
 {
-    // int age = 20;
-    // char name[] = "shiva";
-    // float height = 5.9;
-    // printf("my name is %s and my age is %d and my height is %.1f\n", name ,age, height);
-    // printf("My name is: %s\n", name);
-    // printf("My age is: %d\n", age);
-    // printf("My height is: %.1f\n", height);
-    // printf("my name is: %s\n", "shiva");
-    // printf("my age is: %d\n", 20);
-    // printf("my height is: %.1f\n", 5.9);
+    int age = 20;
+    char name[] = "shiva";
+    float height = 5.9;
+    printf("my name is %s and my age is %d and my height is %.1f\n", name ,age, height);
+    printf("My name is: %s\n", name);
+    printf("My age is: %d\n", age);
+    printf("My height is: %.1f\n", height);
+    printf("my name is: %s\n", "shiva");
+    printf("my age is: %d\n", 20);
+    printf("my height is: %.1f\n", 5.9);
 
     // // change value
 
@@ -212,6 +212,6 @@ int main()
     // printf("~a = %d\n", ~a);       // NOT
     // printf("a << 1 = %d\n", a << 1); // Left shift
     // printf("a >> 1 = %d\n", a >> 1); // Right shift
-    // system("pause");
+    system("pause");
     return 0;
 }

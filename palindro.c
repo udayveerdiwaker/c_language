@@ -21,6 +21,7 @@ int main() {
     } else {
         printf("%d is not a Palindrome number.\n", num);
     }
+    system("pause");
          
     return 0;
 }

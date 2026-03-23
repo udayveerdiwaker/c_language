@@ -227,5 +227,7 @@ int main() {
 
 //     printf("Factorial = %d\n", fact);
 
+system("pause");
+
    return 0;
 }

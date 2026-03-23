@@ -77,6 +77,7 @@ int main() {
     struct Student *sptr = &s1;
     printf("Access with .  : %d, %c\n", s1.id, s1.grade);
     printf("Access with -> : %d, %c\n", sptr->id, sptr->grade);
+    system("pause");
 
     return 0;
 }
